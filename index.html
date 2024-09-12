@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./FontAwesomes/css/all.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/favicon/quraan.ico" type="image/x-icon">
+    <title>Quraan</title>
+</head>
+<body class="bg-darkMode">
+
+    <header class="mb-16">
+        <div class="container">
+            <div class="flex justify-center flex-wrap items-center flex-col md:flex-row md:justify-between ">
+                <div class="icon w-40 cursor-pointer">
+                    <img src="./images/icon.png" alt="">
+                </div>
+
+                <div class="search flex flex-wrap gap-4 w-full md:w-fit grow justify-center md:justify-end">
+                    <button class="outline-none border-none text-white bg-[#333638] px-3 rounded-xl">Search</button>
+                    <input type="text" placeholder="ابحث عن السوره" class= "w-full md:w-96 text-center outline-none  py-[6px] text-white rounded-xl bg-transparent border-2 border-[#4a4a4a]">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="quraan-section" >
+            <div class="container">
+
+                <h1 class="no-surah text-center mb-10 text-white font-extrabold text-2xl underline p-2"></h1>
+                <div class=" surah-section grid grid-cols-12 gap-x-4 gap-y-9">
+                </div>
+                
+   
+    </section>
+
+
+    <script  src="./main.js"></script>
+</body>
+</html>
